@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family:'Open Sans', sans-serif;
+}
+.row::after{
+    content:"";
+    clear: both;
+    display:block;
+}
+[class*="col-"]{
+    float:left;
+    padding:10px;
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+.timeandfaq{
+    background-color: #202c45;
+}
+.time{
+    color:#ffffff;
+    text-align:center;
+}
+.regi button{
+    float: right;
+    background-color: crimson;
+    color:#fff;
+    border:none;
+    padding:10px 15px 10px 15px;
+}
+.Menu{
+    margin-top:16px;
+    position:relative;
+}
+.Menu a{
+    color:red;
+    text-decoration: none;
+    padding:10px 15px 10px 15px;
+
+}
+.Menu a:hover{
+    background-color: #f2184f;
+    color:#fff;
+}
+.active{
+    background-color: #202c45;
+    color:#fff;
+}
+.logoandmenu{
+    background-color: rgb(202, 195, 195);
+    position:relative;
+    width:100%;
+}
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+  
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    }
+    .prodtext{
+        text-align:center;
+    }
+    .prodtext button{
+        background-color: #f2184f;
+        border:none;
+        padding:15px;
+        font-size:20px;
+    }
+   
+    .sticky{
+        position:fixed;
+        top:0;
+        z-index:3;
+    }
